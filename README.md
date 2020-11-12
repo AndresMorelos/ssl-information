@@ -2,8 +2,8 @@
 
 [![GitHub license](https://img.shields.io/github/license/AndresMorelos/ssl-info?style=flat-square)](https://github.com/AndresMorelos/ssl-info/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AndresMorelos/ssl-info?style=flat-square)](https://github.com/AndresMorelos/ssl-info/stargazers)
-[![Version](https://img.shields.io/npm/v/ssl-info.svg?style=flat-square)](https://www.npmjs.com/package/ssl-info)
-[![npm](https://img.shields.io/npm/dw/ssl-infos?style=flat-square)](https://www.npmjs.com/package/ssl-info)
+[![Version](https://img.shields.io/npm/v/ssl-information.svg?style=flat-square)](https://www.npmjs.com/package/ssl-info)
+[![npm](https://img.shields.io/npm/dw/ssl-information?style=flat-square)](https://www.npmjs.com/package/ssl-information)
 
 Get the information about any SSL certificate.
 
