@@ -9,7 +9,7 @@ Get the information about any SSL certificate.
 
 ### How to install?
 ```js
- npm i ssl-info
+ npm i ssl-information
 ```
 
 ### How to use?
@@ -17,7 +17,7 @@ Get the information about any SSL certificate.
 ``` js
 const {
     certManager
-} = require('ssl-info')
+} = require('ssl-information')
 
 certManager
     .get({
@@ -35,3 +35,27 @@ certManager
 | port   | false    | 443       |
 | method | false    | GET       |
 | path   | false    | undefined |
+
+
+### Certificate Object
+
+```js
+
+{ 
+    subject: Object;
+    issuer: Object;
+    subjectaltname: string;
+    infoAccess: Array<String>;
+    modulus: string;
+    exponent: string;
+    valid_from: string;
+    valid_to: string;
+    fingerprint: string;
+    fingerprint256: string;
+    ext_key_usage: Array<String>;
+    serialNumber: string;
+    raw: Buffer;
+    isValid: boolean;
+    content: string; // Parse raw content
+}
+```
