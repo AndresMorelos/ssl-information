@@ -14,6 +14,8 @@ export class Request {
             }
             
             callback(new Cert(certificate));
+        }).on('error', (error) => {
+            callback(null, error)
         }).end()
     }
 

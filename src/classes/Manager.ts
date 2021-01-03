@@ -17,7 +17,6 @@ export class Manager {
                     reject(error)
                 }
                 resolve(certificate)
-
             })
         })
     }
